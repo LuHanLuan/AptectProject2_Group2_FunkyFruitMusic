@@ -15,7 +15,7 @@ This is project 2 from FPT-Aptech Education about a music website.
 - Web browser (recommend Microsoft Edge)
 
 ## Video Introduction
-[![Funky Fruit Music](https://img.youtube.com/vi/_k7bVZA84zc/0.jpg)](https://www.youtube.com/watch?v=_k7bVZA84zc
+[![Funky Fruit Music](https://img.youtube.com/vi/_k7bVZA84zc/0.jpg)](https://www.youtube.com/watch?v=_k7bVZA84zc)
 ## Contact
 - If you have any problem for installing, please contact luhanluan1@gmail.com for more information.
 
