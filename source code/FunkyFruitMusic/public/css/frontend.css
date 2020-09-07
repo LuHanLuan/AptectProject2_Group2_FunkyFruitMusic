@@ -1,0 +1,353 @@
+*{
+    font-size: 16px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: cyan;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown ul{
+    list-style: none;
+}
+
+.card {
+    margin-top: 200px;
+    padding: 20px;
+    border: solid 3px black;
+    
+}
+
+.py-4{
+    background-image: none !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-content{
+    background: white;
+    display: none !important;
+    padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;
+}
+
+nav{
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    height: 60px;
+}
+
+nav a{
+    text-transform: uppercase;
+}
+
+.nav-area{
+    background: #262626;
+}
+.nav-area:after{
+    content: '';
+    clear:both;
+    display: block;
+}
+.nav-area ul{
+    list-style: none;
+    margin: 0;
+}
+.nav-area > ul > li {
+    float: left;
+    position: relative;
+}
+.nav-area ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+}
+.nav-area ul li:hover a{
+    background: #34495a;
+}
+
+.nav-area ul ul{
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+.nav-area ul li:hover>ul{
+    display:block;
+}
+.nav-area ul ul li:hover a{
+    background: #262626;
+    color: #fff;
+}
+.nav-area ul ul li{
+    position: relative;
+    z-index: 9999;
+}
+
+.data-content{
+    border: 1px solid rgb(238, 235, 231);
+}
+
+.banner-img{
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.row{
+    margin: 0;
+}
+
+.song-detail{
+    
+    position: relative;
+}
+
+.song-detail .counter{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.song-detail .song-display{
+    font-size: 18px;
+    display: inline-block;
+}
+
+.song-detail>:hover{
+    background-color: snow;
+}
+
+.song-detail a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float:right;
+}
+
+.icon-block{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+
+.icon-block a{
+    padding-right: 50px;
+    color: blue;
+}
+
+.data-content h1{
+    margin-left: 20px;
+}
+
+#canvas {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+  
+audio {
+    position: relative;
+    width: 100%;
+}
+
+.lyric{
+    padding-left: 80px;
+}
+
+.long-text{
+    overflow-y: auto;
+    height: 500px;
+}
+
+.icon-detail{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+.icon-detail a{
+    padding: 20px 60px;
+    text-decoration: none;
+}
+
+.detail-song a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.small-icon-block a{
+    padding-right: 50px;
+    color: blue;
+}
+
+.sidebar{
+    margin-top: 10px;
+}
+
+.sidebar .nonactive-sidebar{
+    display:block;
+    background-color: cornsilk;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.sidebar .active-sidebar{
+    font-size: 22px;
+    padding-left: 10px;
+    display:block;
+    font-weight: bold;
+    background-color: burlywood;
+    border-left: 2px darkblue solid;
+}
+
+.sidebar .nonactive-sidebar:hover{
+    font-size: 22px;
+    padding-left: 10px;
+    display:block;
+    font-weight: bold;
+    background-color: burlywood;
+    border-left: 2px darkblue solid;
+}
+
+.sider a{
+    text-decoration: none;
+}
+
+.sidebar-content{
+    margin-top: 10px;
+    border: 1px solid rgb(238, 235, 231);
+}
+
+.sider{
+    min-height: 800px;
+}
+
+.sidebar-content h1 a{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sidebar-content a{
+    font-size: 22px;
+}
+
+.block-content img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.block-content img:hover{
+    opacity: 0.6;
+}
+
+.block-content h1 a{
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.block-content button{
+    display: block;
+    margin: auto;
+}
+
+.title-a{
+    padding-left: 70px;
+    color: dodgerblue;
+}
+
+.block-b{
+    overflow-y: auto;
+    max-height: 220px;
+}
+
+.block-a img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.block-a h1{
+    color: dodgerblue;
+    padding-left: 70px;
+}
+
+.data-display a{
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.data-display a:hover{
+    font-weight: bold;
+}
+
+.view-m{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
+
+
+.block-content-a img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.block-content-a img:hover{
+    opacity: 0.6;
+}
+
+
+.comment{
+    padding-left: 200px;
+}
