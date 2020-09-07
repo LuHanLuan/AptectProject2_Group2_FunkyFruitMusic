@@ -15,3 +15,11 @@ This is project 2 from FPT-Aptech Education about a music website.
 - Web browser (recommend Microsoft Edge)
 
 ## Video Introduction
+
+## Contact
+- If you have any problem for installing, please contact luhanluan1@gmail.com for more information.
+
+## Team members
+- Lu Han Luan
+- Dao Nguyen Duy Khang
+- Chau Duc Thinh
